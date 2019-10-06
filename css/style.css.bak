@@ -2350,7 +2350,7 @@ html::-webkit-scrollbar-track:hover, .sidebar-panel-archives::-webkit-scrollbar-
     border-top: 1px dashed #ccc;
     border-bottom: 1px dashed #ccc;
     color: #23394d;
-	margin-top: 30px;
+	margin-top:15px;
 }
 
 .license-wrapper p {
