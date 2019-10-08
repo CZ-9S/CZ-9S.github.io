@@ -2035,6 +2035,7 @@ html::-webkit-scrollbar-track:hover, .sidebar-panel-archives::-webkit-scrollbar-
 .post-body .intro-title, .about-body .intro-title {
     font: 4rem/5.3rem "Oswald-Regular";
     color: #fff;
+    font-size: 40px;
     margin: 0
 }
 
