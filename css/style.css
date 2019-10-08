@@ -1383,8 +1383,8 @@ ul, li {
 }
 
 html::-webkit-scrollbar, .sidebar-panel-archives::-webkit-scrollbar, .sidebar-tags-list::-webkit-scrollbar, .sidebar-categories-list::-webkit-scrollbar, .highlight::-webkit-scrollbar {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 5px
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    width: 1.1%;
 }
 
 html::-webkit-scrollbar-corner, .sidebar-panel-archives::-webkit-scrollbar-corner, .sidebar-tags-list::-webkit-scrollbar-corner, .sidebar-categories-list::-webkit-scrollbar-corner, .highlight::-webkit-scrollbar-corner {
@@ -1401,7 +1401,11 @@ html::-webkit-scrollbar-button:start:increment, html::-webkit-scrollbar-button:e
 
 html::-webkit-scrollbar-thumb, .sidebar-panel-archives::-webkit-scrollbar-thumb, .sidebar-tags-list::-webkit-scrollbar-thumb, .sidebar-categories-list::-webkit-scrollbar-thumb, .highlight::-webkit-scrollbar-thumb {
     border-radius: 8px;
-    background-color: rgba(0, 0, 0, 0.2)
+    background-image: url("/assets/猫爪最终.png");
+    background-origin: revert;
+    background-size: 133%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 html::-webkit-scrollbar-track, html::-webkit-scrollbar-thumb, .sidebar-panel-archives::-webkit-scrollbar-track, .sidebar-panel-archives::-webkit-scrollbar-thumb, .sidebar-tags-list::-webkit-scrollbar-track, .sidebar-tags-list::-webkit-scrollbar-thumb, .sidebar-categories-list::-webkit-scrollbar-track, .sidebar-categories-list::-webkit-scrollbar-thumb, .highlight::-webkit-scrollbar-track, .highlight::-webkit-scrollbar-thumb {
